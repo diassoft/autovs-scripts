@@ -1,6 +1,6 @@
 {
   "name": "autovs-scripts",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "description": "Diassoft Auto Versioning Script",
   "main": "versions.js",
   "scripts": {
