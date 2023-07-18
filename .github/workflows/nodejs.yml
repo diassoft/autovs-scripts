@@ -1,4 +1,4 @@
-name: Build Node Package (Non-Production)
+name: build-non-prod
 
 on:
   push:
