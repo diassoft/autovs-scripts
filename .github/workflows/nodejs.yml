@@ -1,17 +1,19 @@
-name: build-non-prod
+name: build
 
-on:
-  push:
-    branches: [ "dev" ]
+on: [push]
+
+permissions:
+    contents: read
 
 jobs:
   build:
-
-    runs-on: ubuntu-latest
+    name: Build and test on node ${{ matrix.node-version }} and ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
 
     strategy:
       matrix:
         node-version: [16.x, 18.x]
+        os: [ubuntu-latest, windows-latest, macos-latest]
 
     steps:
     - uses: actions/checkout@v3
