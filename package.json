@@ -1,0 +1,27 @@
+{
+  "name": "autovs-scripts",
+  "version": "1.0.0-alpha.2",
+  "description": "Diassoft Auto Versioning Script",
+  "main": "versions.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diassoft/autovs-scripts"
+  },
+  "keywords": [
+    "Versioning",
+    "Diassoft",
+    "Automatic Version",
+    "Automatic Versioning",
+    "Automated Versioning",
+    "Semantic",
+    "Semantic Versioning"
+  ],
+  "author": "Olavo Dias <olavodias@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
