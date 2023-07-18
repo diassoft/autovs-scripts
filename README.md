@@ -40,7 +40,7 @@ console.log(`Bumped version is: ${myBumpedVersion.formattedVersion()}`);
 The `versions` object will expose the following methods:
 
 | Method | Description |
-| ------ | ----------- |
+| :-- | :-- |
 | `parseVersion()` | Parses a string into a version object |
 | `bumpVersion()` | Bump the given version to the next level |
 | `newVersionObject()` | Creates a version object based on the given input |
@@ -50,7 +50,7 @@ The `versions` object will expose the following methods:
 Both `parseVersion()` and `bumpVersion()` return a version object. This object is composed of the following members:
 
 | Member | Description |
-| ------ | ----------- |
+| :-- | :-- |
 | `major` | The version major |
 | `minor` | The version minor |
 | `patch` | The version patch |
@@ -69,7 +69,7 @@ The `parseVersion()` method will convert a string into a `Version Object`.
 ### Input Parameters
 
 | name | required | description |
-| ---- | :--: | ----------- |
+| :-- | :--: | :-- |
 | `version` | yes | A string containing the version to be parsed. Example `v1.2.0-alpha.1+001210`. |
 
 ### Output
@@ -83,7 +83,7 @@ The `bumpVersion()` method will move the current version into the next level, an
 ### Input Parameters
 
 | name | required | description |
-| ---- | :--: | ----------- |
+| :-- | :--: | :-- |
 | `currentVersion` | yes | A string containing the current version to be bumped. Example `v1.2.0-alpha.1+001210`. |
 | `level` | yes | The level that needs to be bumped for the version. Valid values are: `major`, `minor`, `patch`, `prerelease-identifier`, `prerelease-version`. |
 | `buildNumber` | no | A number representing the build number to be added to the end of the version. |
